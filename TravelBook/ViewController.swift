@@ -177,6 +177,25 @@ class ViewController: UIViewController,MKMapViewDelegate,CLLocationManagerDelega
     }
     
 
-    
+    //        let authContext = LAContext() // local authlara erisebilmek icin
+//
+//        var error : NSError?
+//        // deviceOwnerAuthenticationWithBiometrics parmak izi veya yuz tanima icin kullanilir.
+//        if authContext.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error){// & pointer oldugunu belirler
+//
+//            authContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Is it you?") { (success, error) in
+//                           if success == true {
+//                               //successful auth
+//                               DispatchQueue.main.async {
+//                                   self.performSegue(withIdentifier: "toHomeVC", sender: nil)
+//                               }
+//                           } else {
+//                               DispatchQueue.main.async {
+//                                   self.statusLabelView.text = "Error!"
+//                               }
+//                           }
+//                       }
+//
+//        }
 }
  
